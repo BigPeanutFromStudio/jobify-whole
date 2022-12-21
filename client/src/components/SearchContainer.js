@@ -8,6 +8,7 @@ const SearchContainer = () => {
 
   const {
     isLoading,
+    // eslint-disable-next-line
     search,
     searchStatus,
     searchType,
@@ -40,6 +41,7 @@ const SearchContainer = () => {
     };
   };
 
+  // eslint-disable-next-line
   const optimizedDebounce = useMemo(() => debounce(), []);
 
   return (
